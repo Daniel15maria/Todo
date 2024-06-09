@@ -9,7 +9,7 @@ const TodoList = () => {
     const [taskList, setTaskList] = useState([]);
 
     useEffect(() => {
-        fetch('https://todoserver-8vzn.onrender.com//api/todos')
+        fetch('https://todoserver-8vzn.onrender.com/api/todos')
             .then(response => response.json())
             .then(data => {
                 setTaskList(data);
