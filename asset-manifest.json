@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Todo/static/css/main.48a1c79c.css",
-    "main.js": "/Todo/static/js/main.999f6294.js",
+    "main.js": "/Todo/static/js/main.164e9c12.js",
     "static/js/453.37753ddd.chunk.js": "/Todo/static/js/453.37753ddd.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Todo/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/Todo/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -11,11 +11,11 @@
     "static/media/bg4.avif": "/Todo/static/media/bg4.e96b519d37d7a4889f4f.avif",
     "index.html": "/Todo/index.html",
     "main.48a1c79c.css.map": "/Todo/static/css/main.48a1c79c.css.map",
-    "main.999f6294.js.map": "/Todo/static/js/main.999f6294.js.map",
+    "main.164e9c12.js.map": "/Todo/static/js/main.164e9c12.js.map",
     "453.37753ddd.chunk.js.map": "/Todo/static/js/453.37753ddd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48a1c79c.css",
-    "static/js/main.999f6294.js"
+    "static/js/main.164e9c12.js"
   ]
 }
