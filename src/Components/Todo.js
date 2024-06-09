@@ -9,7 +9,7 @@ const TodoList = () => {
     const [taskList, setTaskList] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/api/todos')
+        fetch('https://todoserver-8vzn.onrender.com//api/todos')
             .then(response => response.json())
             .then(data => {
                 setTaskList(data);
@@ -19,7 +19,7 @@ const TodoList = () => {
 
     const deleteTask = async (taskId) => {
         try {
-            await fetch(`http://localhost:5000/api/todos/${taskId}`, {
+            await fetch(`https://todoserver-8vzn.onrender.com/api/todos/${taskId}`, {
                 method: 'DELETE'
             });
             setTaskList(prevList => prevList.filter(task => task._id !== taskId));
@@ -30,7 +30,7 @@ const TodoList = () => {
 
     const saveTask = async (taskObj) => {
         try {
-            const response = await fetch('http://localhost:5000/api/todos', {
+            const response = await fetch('https://todoserver-8vzn.onrender.com/api/todos', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

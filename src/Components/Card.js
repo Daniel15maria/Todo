@@ -42,7 +42,7 @@ const Card = ({ taskObj, deleteTask, updateListArray }) => {
 
     const updateTask = async (updatedTask) => {
         try {
-            await fetch(`http://localhost:5000/api/todos/${taskObj._id}`, {
+            await fetch(`https://todoserver-8vzn.onrender.com/api/todos/${taskObj._id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'
